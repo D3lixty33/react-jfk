@@ -23,7 +23,7 @@ const Video = () => {
 // <input type="file" onChange={handleChange} /> ======> to add the possibility for the users to load a video they wanna play implement under the video component this input tag
   return (
     <>
-      <video src={src} autoPlay loop muted width="100%">
+      <video src={src} autoPlay loop muted width="100%" className='border-0'>
         Sorry, your browser doesn't support embedded videos.
       </video>      
     </>
