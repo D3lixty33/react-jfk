@@ -1,0 +1,53 @@
+img {
+    object-fit: contain;
+}
+
+hr {
+    border-top-width: 0.5px;
+    border-top-style: solid;
+    border-top-color: #ccc;
+    display: block;
+    height: 1px;
+}
+
+div>hr {
+    transition: width 1s ease-out;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 1s ease-out;
+    width: 95%;
+    float: left;
+}
+
+div:hover>hr {
+    width: 0%;
+    float: right;
+}
+
+.btnPage {
+    display: flex;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-weight: 200;
+    width: 120px;
+    height: auto;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    border-radius: 0.2px;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    text-shadow: none;
+    position: relative;
+}
+
+.btnPage:hover {
+    border: 1px solid #000;
+    transition-behavior: normal;
+    transition-delay: 0s;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+  }

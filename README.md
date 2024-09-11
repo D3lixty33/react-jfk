@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+==========================================================================================
+
+Update 11/09/2024 11:50
+
+This project is the root project of the website assigned to the domain "jfk.group". 
+This page was written in VanillaJS, HTML and CSS, but for better management I updated it to a ReactApp. Before updating it to a ReactApp i started writing this project using NextJS, but the v.v 14.2.3 of this framework doen't compile correctly the webpack.config files so it doesn't work proprely. I noticed this particularity when I tried uploading the video of the page, but it always gave me errors about the URL, or something else. Also in this version of Next, MUX doesn't work either, they are incompatible. 
+To resolve this problem I restarted writing the page but I used "create-react-app". Also using this to upload the video I had to load the local video in a function where it gets converted to a blob Url using the func. "URL.createObjectURL" 
+
+
+Once i resolved this big framework problems I created the components till the slider, now I need to understand if I want to implement a new version of the old slider or I want to replicate the old circular slider.
