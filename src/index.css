@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: 'Rubik',  sans-serif;
+  font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,4 +13,40 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+hr {
+  border-top-width: 0.5px;
+  border-top-style: solid;
+  border-top-color: #ccc;
+  display: block;
+  height: 1px;
+}
+
+div>hr {
+  transition: width 1s ease-out;
+  /* For Safari 3.1 to 6.0 */
+  transition: width 1s ease-out;
+  width: 95%;
+  float: left;
+}
+
+div:hover>hr {
+  width: 0%;
+  float: right;
+}
+
+@media only screen and (min-width: 300px) {
+  div>hr {
+    transition: width 1s ease-out;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 1s ease-out;
+    width: 95%;
+    float: left;
+  }
+
+  div:hover>hr {
+    width: 0%;
+    float: right;
+  }
 }

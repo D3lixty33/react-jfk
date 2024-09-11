@@ -6,6 +6,9 @@ import CardsInfo from './components/cards/cardsInfo.js';
 import Cards from './components/cards/cards.js';
 import Parallax from './components/parallax/parallax.js';
 import Slider from './components/products/products.js';
+import News from './components/news/news.js';
+import ScrollForm from './components/scrollForm/scrollForm.js';
+import Footer from './components/footer/footer.js';
 
 
 function App() {
@@ -17,8 +20,11 @@ function App() {
       <UnderHero />
       <CardsInfo />
       <Cards />
-      <Parallax />
+      <Parallax/>
       <Slider />
+      <News />
+      <ScrollForm />
+      <Footer />
 
     </div>
   );

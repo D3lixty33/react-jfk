@@ -8,3 +8,18 @@
     margin-top: 90px;
     max-width: 100%;
 }
+
+@media only screen and (min-width: 300px) {
+    .parallax {
+        margin-top: 900px;
+        margin-bottom : 170px
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .parallax {
+        margin-top: 100px;
+        margin-bottom : 150px
+    }
+}
+

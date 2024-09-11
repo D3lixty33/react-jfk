@@ -7,23 +7,23 @@ import Datus from '../../assets/images/Logos/Datus.png'
 
 const Cards = () => {
     return (
-        <div className="flex flex-row w-full h-96 mt-16 p-6">
-            <div className="flex w-1/4 flex-col items-center cursor-pointer ITS">
+        <div className="flex flex-row w-full h-96 mt-16 p-6 xxs:w-full xxs:flex-col md:flex-row">
+            <div className="flex w-1/4 flex-col items-center cursor-pointer ITS xxs:w-full xxs:flex-col">
                 <img src={ITS}></img>
                 <hr className="ml-4 mr-4"></hr>
                 <button className="btnPage mt-4">Scopri di più</button>
             </div>
-            <div className="flex w-1/4 flex-col items-center cursor-pointer CCZ">
+            <div className="flex w-1/4 flex-col items-center cursor-pointer CCZ xxs:w-full xxs:flex-col">
                 <img src={CCZ}></img>
                 <hr className="ml-4 mr-4"></hr>
                 <button className="btnPage mt-4">Scopri di più</button>
             </div>
-            <div className="flex w-1/4 flex-col items-center cursor-pointer JFK">
+            <div className="flex w-1/4 flex-col items-center cursor-pointer JFK xxs:w-full xxs:flex-col">
                 <img src={JFK}></img>
                 <hr className="ml-4 mr-4"></hr>
                 <button className="btnPage mt-4">Scopri di più</button>
             </div>
-            <div className="flex w-1/4 flex-col items-center cursor-pointer DATUS">
+            <div className="flex w-1/4 flex-col items-center cursor-pointer DATUS xxs:w-full xxs:flex-col">
                 <img src={Datus}></img>
                 <hr className="ml-4 mr-4"></hr>
                 <button className="btnPage mt-4">Scopri di più</button>

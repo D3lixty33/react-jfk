@@ -1,0 +1,14 @@
+.underForm {
+    background-color: #003053;
+    color: white;
+}
+
+.imgFooter {
+    object-fit : contain;
+    max-width: 150px;    
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
