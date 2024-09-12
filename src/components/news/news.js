@@ -15,7 +15,7 @@ const News = () => {
             <div className="flex flex-row items-center justify-center w-full mt-16 xxs:flex-col md:flex-row xxs:w-full">
                 <div className="w-1/3 flex flex-col justify-center items-center cursor-pointer xxs:w-full md:w-1/3 xxs:mb-10">
                     <a href="https://cczinternational.it/ccz-international-e-certificata-iso-9001/">
-                        <img src={CCZIso} className="object-contain"></img>
+                        <img src={CCZIso} className="object-contain" alt="404 Error"></img>
                     </a>
                     <hr className="mt-4 mb-4"></hr>
                     <h5 className="text-xl font-medium mb-8">CCZ International è certificata <br /> ISO 9001 </h5>
@@ -25,7 +25,7 @@ const News = () => {
                 </div>
                 <div className="w-1/3 flex flex-col justify-center items-center cursor-pointer xxs:w-full md:w-1/3 xxs:mb-10">
                     <a href="https://itsitalia.org/la-crisi-del-mar-rosso-e-il-suo-impatto-sui-traffici-commerciali/">
-                        <img src={RedSea} className="object-contain"></img>
+                        <img src={RedSea} className="object-contain" alt="404 Error"></img>
                     </a>
                     <hr className="mt-4 mb-4"></hr>
                     <h5 className="text-xl font-medium mb-8">La crisi del Mar Rosso e il suo impatto <br /> sui traffici commerciali</h5>
@@ -35,7 +35,7 @@ const News = () => {
                 </div>
                 <div className="w-1/3 flex flex-col justify-center items-center cursor-pointer xxs:w-full md:w-1/3 xxs:mb-10">
                     <a href="https://cczinternational.it/spessori-metallici-un-prodotto-versatile-ed-efficiente/">
-                        <img src={SpessoriMetallici} className="object-contain"></img>
+                        <img src={SpessoriMetallici} className="object-contain" alt="404 Error"></img>
                     </a>
                     <hr className="mt-4 mb-4"></hr>
                     <h5 className="text-xl font-medium mb-8">Spessori metallici: <br /> un prodotto versatile ed efficiente </h5>

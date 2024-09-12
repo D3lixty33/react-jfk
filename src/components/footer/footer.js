@@ -34,17 +34,17 @@ const Footer = () => {
                 <ul className="flex justify-center flex-col items-center">
                     <li className="flex items-center">
                         <a href="https://www.instagram.com/jfkgroup_eu/">
-                            <img src={Instagram}></img>
+                            <img src={Instagram} alt="404 Error"></img>
                         </a>
                     </li>
                     <li>
                     <a href="https://www.facebook.com/jfkgroup.eu">
-                            <img src={Facebook}></img>
+                            <img src={Facebook} alt="404 Error"></img>
                         </a>
                     </li>
                     <li>
                     <a href="https://www.linkedin.com/company/jfkgroup/">
-                            <img src={Linkedin}></img>
+                            <img src={Linkedin} alt="404 Error"></img>
                         </a>
                     </li>
                 </ul>
