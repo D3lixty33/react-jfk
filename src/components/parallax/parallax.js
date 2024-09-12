@@ -3,7 +3,7 @@ import './parallaxStyle.css'
 
 const Parallax = () => {
     return (
-        <div className="w-full h-auto parallax">
+        <div className="w-full h-auto parallax xxs:object-contain xxs:bg-local">
 
         </div>
     )

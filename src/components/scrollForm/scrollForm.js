@@ -3,7 +3,7 @@ import './scrollForm.css'
 
 const ScrollForm = () => {
     return (
-        <div className="scrollForm">
+        <div className="scrollForm xxs:object-contain xxs:bg-local">
 
         </div>
     )
