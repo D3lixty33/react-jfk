@@ -13,7 +13,7 @@ import Footer from './components/footer/footer.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-screen">
 
       <Video />
       <HeroSection />

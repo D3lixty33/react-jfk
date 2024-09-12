@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import defaultVideo from '../../assets/videos/video-jfk.mp4'; // Adjust path as necessary
+import Navbar from '../navbar/navbar';
+import './video.css'
 
 const Video = () => {
-    
+
   const [src, setSrc] = useState(defaultVideo);
 
-  
+
   const handleChange = (event) => {
     try {
       const file = event.target.files[0];
@@ -20,13 +22,18 @@ const Video = () => {
       console.error(error);
     }
   };
-// <input type="file" onChange={handleChange} /> ======> to add the possibility for the users to load a video they wanna play implement under the video component this input tag
+  // <input type="file" onChange={handleChange} /> ======> to add the possibility for the users to load a video they wanna play implement under the video component this input tag
   return (
-    <>
-      <video src={src} autoPlay loop muted width="100%" className='border-0'>
-        Sorry, your browser doesn't support embedded videos.
-      </video>      
-    </>
+    <div className='position-relative'>
+      <div className='navPos'>
+        <Navbar />
+      </div>
+      <div className='vidIndex'>
+        <video src={src} autoPlay loop muted width="100%" className='border-0'>
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+      </div>
+    </div>
   );
 };
 
