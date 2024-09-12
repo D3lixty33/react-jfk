@@ -9,3 +9,12 @@
     height: 300px;
     margin-top: 80px;
 }
+
+@media only screen and (min-width: 300px) {
+    .underHeroImg {
+        background-image: url('../../assets/images/Immagini\ dinamiche/Img-dinamica1.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
