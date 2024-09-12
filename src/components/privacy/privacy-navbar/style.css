@@ -1,0 +1,16 @@
+.liNav {
+    color : rgb(26, 69, 104);
+}
+
+.btnPrivacy {
+    background-color: rgb(26, 69, 104);
+    border-radius: 21px;
+    width: 150px;
+    border-width: 1.6px;
+}
+
+.btnPrivacy:hover {
+    background-color: white;
+    color : rgb(26, 69, 104);
+    border-color: rgb(26,69,104);
+}
