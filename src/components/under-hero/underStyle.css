@@ -10,3 +10,20 @@
     margin-top: 80px;
 }
 
+@media only screen and (min-width: 300px) {
+    .underHeroImg {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url('../../assets/images/Immagini\ dinamiche/Img-dinamica1-mobile.webp');
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .underHeroImg {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url('../../assets/images/Immagini\ dinamiche/Img-dinamica1.webp');
+    }
+}
