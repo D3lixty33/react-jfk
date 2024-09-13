@@ -14,7 +14,7 @@
     .underHeroImg {
         background-size: cover;
         background-position: 20% 70%;
-        background-attachment: initial;
+        background-attachment: fixed;
         background-repeat: no-repeat;
         background-image: url('../../assets/images/Immagini\ dinamiche/Img-dinamica1.webp');
     }

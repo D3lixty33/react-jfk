@@ -11,19 +11,21 @@
 
 @media only screen and (min-width: 300px) {
     .parallax {
-        margin-top: 900px;
-        margin-bottom : 170px;
-        background-image: url('../../assets/images/Immagini\ dinamiche/Img-dinamica2.webp');
-        background-size: auto;
+        background-size: cover;
+        background-position: 20% 20%;
+        background-attachment: fixed;
         background-repeat: no-repeat;
-        background-position: center;
+        background-image: url('../../assets/images/Immagini\ dinamiche/Img-dinamica2.webp');
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     .parallax {
-        margin-top: 100px;
-        margin-bottom : 150px
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url('../../assets/images/Immagini\ dinamiche/Img-dinamica2.webp');
     }
 }
 
