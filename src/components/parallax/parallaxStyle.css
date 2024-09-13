@@ -9,5 +9,21 @@
     max-width: 100%;
 }
 
+@media only screen and (min-width: 300px) {
+    .parallax {
+        margin-top: 900px;
+        margin-bottom : 170px;
+        background-image: url('../../assets/images/Immagini\ dinamiche/Img-dinamica2.webp');
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
 
+@media only screen and (min-width: 600px) {
+    .parallax {
+        margin-top: 100px;
+        margin-bottom : 150px
+    }
+}
 
