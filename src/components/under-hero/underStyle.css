@@ -25,6 +25,7 @@
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
+        background-attachment: fixed;
         background-image: url('../../assets/images/Immagini\ dinamiche/Img-dinamica1.webp');
     }
 }
