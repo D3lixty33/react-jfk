@@ -13,10 +13,10 @@ const Navbar = () => {
                 <label className="menu__btn" for="menu__toggle" id="mn_2">
                     <span></span>
                 </label>
-                <a className="menu__item" href="#whatWeDo_Scroll">Home</a>
-                <a className="menu__item" href="#aboutScroll">About Us</a>
+                <a className="menu__item" href="#Home">Home</a>
+                <a className="menu__item" href="#aboutUs">About Us</a>
                 <a className="menu__item" href="#scrollNews">News</a>
-                <a className="menu__item" href="#underForm_Scroll">Contact Us</a>
+                <a className="menu__item">Contact Us</a>
             </ul>
         </div>
     )

@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import { inject } from '@vercel/analytics';
+import useSmoothScroll from './components/functions/smoothScroll';
 
-
-inject()
+inject();
 
 
 

@@ -9,7 +9,7 @@ const HeroSection = () => {
     // Here add the dynamic and logical side of the component then render the result inside the component itself
 
     return (
-        <div className="flex w-full h-auto flex-row mt-9 items-center xxs:flex-col md:flex-row xxs:w-full">
+        <div className="flex w-full h-auto flex-row mt-9 items-center xxs:flex-col md:flex-row xxs:w-full" id="aboutUs">
             <div className="w-6/12 h-auto flex justify-center xxs:w-full">
                 <JFKSVG className="object-contain max-h-60 justify-center align-middle"></JFKSVG>
             </div>

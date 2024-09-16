@@ -9,8 +9,13 @@ import News from '../news/news.js';
 import ScrollForm from '../scrollForm/scrollForm.js';
 import Footer from '../footer/footer.js';
 import Privacy from '../privacy/privacy.js';
+import useSmoothScroll from '../functions/smoothScroll.js';
+
 
 const Main = () => {
+
+    useSmoothScroll();
+
     return (
         <div className='main'>
             <Video />

@@ -24,7 +24,7 @@ const Video = () => {
   };
   // <input type="file" onChange={handleChange} /> ======> to add the possibility for the users to load a video they wanna play implement under the video component this input tag
   return (
-    <div className='position-relative'>
+    <div className='position-relative' id='Home'>
       <div className='navPos'>
         <Navbar />
       </div>

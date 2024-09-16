@@ -9,7 +9,7 @@ import SpessoriMetallici from '../../assets/images/News/SpessoriMetallici.jpg'
 
 const News = () => {
     return (
-        <div className="flex w-full flex-col justify-center items-center">
+        <div className="flex w-full flex-col justify-center items-center" id="scrollNews">
             <h2 className="text-3xl font-medium mb-2">ULTIME NEWS</h2>
             <p className="text-base font-normal ">JFK Journal</p>
             <div className="flex flex-row items-center justify-center w-full mt-16 xxs:flex-col md:flex-row xxs:w-full">
