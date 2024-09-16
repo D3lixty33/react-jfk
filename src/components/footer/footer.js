@@ -10,8 +10,8 @@ const Footer = () => {
     return (
         <div className="w-full flex justify-center align-baseline underForm xxs:flex-col md:flex-row">
             <div className="flex flex-col w-2/16 justify-end xxs:justify-center xxs:items-center">
-                <img src={LogoBianco} className="imgFooter"></img>
-                <img src={Payoff} className="imgFooter -mt-20"></img>
+                <img src={LogoBianco} className="imgFooter" alt="404 Error"></img>
+                <img src={Payoff} className="imgFooter -mt-20" alt="404 Error"></img>
             </div>
             <div className="flex flex-col w-2/12 mt-8 xxs:w-full">
                 <h6>ITS ITALIA SPA</h6>
