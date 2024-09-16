@@ -29,7 +29,7 @@ const Video = () => {
         <Navbar />
       </div>
       <div className='vidIndex'>
-        <video src={src} autoPlay loop muted width="100%" className='border-0'>
+        <video src={src} autoPlay loop muted width="100%" playsInline className='border-0'>
           <track id="enTrack" src="entrack.vtt" label="English" kind="captions" srclang="en" default />
           <track id="itTrack" src="ittrack.vtt" label="Italiano" kind="captions" srclang="it" />
           Sorry, your browser doesn't support embedded videos.
