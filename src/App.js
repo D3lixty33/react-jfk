@@ -10,22 +10,18 @@ import { inject } from '@vercel/analytics';
 inject()
 
 
+
 function App() {
   return (
-    <div className="App w-screen">
-
+    <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Main />}/>
+          <Route path="/" element={<Main />} />
           <Route path='/privacy-page' element={<PrivacyPage />} />
         </Routes>
         <Analytics />
         <SpeedInsights />
       </Router>
-
-
-      
-
     </div>
   );
 }
